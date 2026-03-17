@@ -19,6 +19,7 @@ values are :  a = 10, b = 20
 pub fn take_something_return_something(a: i32, b: i32) -> i32 {
     a + b
 }
+```
 
 ### 2) take_nothing_return_nothing
 
