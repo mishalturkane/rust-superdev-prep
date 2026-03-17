@@ -13,9 +13,9 @@ operation is : addition
 values are :  a = 10, b = 20
  
 
-1) take_something_return_something fn code -
-`
+### 1) take_something_return_something
+
+```rust
 pub fn take_something_return_something(a: i32, b: i32) -> i32 {
     a + b
 }
-`
