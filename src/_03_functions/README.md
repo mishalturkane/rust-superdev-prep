@@ -9,7 +9,7 @@ so there is 4 types of functions in general programmig and these are
 
 so lets perform one operation to practice a types of functions in rust
 
-operation is : addition
+operation is : addition <br>
 values are :  a = 10, b = 20
  
 
