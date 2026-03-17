@@ -1,7 +1,7 @@
 ## Conditional Statements in Rust
 ### Conditional statements allow you to make decisions in your code. They control the flow of the program by executing specific blocks of code only if a certain condition is met.
 
-Key Concepts:
+Key Concepts: <br>
 if: The basic decision maker.
 
 else if: Used to check multiple conditions.
