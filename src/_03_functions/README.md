@@ -1,4 +1,4 @@
-A function in programming is a reusable block of code that takes inputs, performs a specific task, and (optionally) returns an output.
+## A function in programming is a reusable block of code that takes inputs, performs a specific task, and (optionally) returns an output.
 
 so there is 4 types of functions in general programmig and these are
 
