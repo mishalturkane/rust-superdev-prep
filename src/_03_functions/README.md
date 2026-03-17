@@ -30,3 +30,39 @@ pub fn take_nothing_return_nothing(){
     let sum = a + b;
     println!("tnrn fn - the sum of a&b is: {}", sum);
 }
+```
+### 3) take_something_return_nothing
+```rust
+pub fn take_something_return_nothing(a: i32, b: i32) {
+    let sum = a + b;
+    println!("tsrn fn - the sum of a&b is: {}", sum);
+}
+```
+### 4) take_nothing_return_something
+```rust
+pub fn take_nothing_return_something() -> i32 {
+    let a = 10;
+    let b = 20;
+    let sum = a + b;
+    sum
+}
+```
+
+now here impementation of these in main.rs
+```rust
+
+mod _03_functions;
+
+fn main() {
+
+   let sum = _03_functions::take_something_return_something(10,20);
+   println!("tsrs fn - the sum of a&b is: {}", sum);
+   
+   _03_functions::take_nothing_return_nothing();
+   
+   _03_functions::take_something_return_nothing(10, 20);
+   
+   let sum = _03_functions::take_nothing_return_something();
+   println!("tnrs fn - the sum of a&b is: {}", sum);
+}
+```
