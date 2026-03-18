@@ -1,10 +1,8 @@
-mod _05_structs;
+mod _09_errors;
 
 fn main() {
-    
-    _05_structs::structs();
-    
-    _05_structs::tuple_type_book();
-    
-    _05_structs::rectangle();
+    match _09_errors::divide(1.0, 0.0) {
+        Ok(result) => println!("Result: {}", result),
+        Err(err) => println!("Error: {:?}", err),
+    }
 }
